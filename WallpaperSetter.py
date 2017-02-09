@@ -4,7 +4,7 @@ from io import BytesIO
 from PIL import Image
 from datetime import datetime
 
-user_agent = ("Wallpaper Script by /u/sukibae 1.0")
+user_agent = ("Wallpaper Script by /u/sukibae 1.1")
 r = praw.Reddit(client_id = "nMeXsi0VEEaW_A", user_agent = user_agent, client_secret = "E6PLfbBEs_CyKqlFYgxe046fop8")
 
 for post in r.subreddit("earthporn").hot(limit = 5):
